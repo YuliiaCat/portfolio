@@ -1,0 +1,55 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: $padding-mobile;
+  max-width: $max-mobile-width;
+  margin: 0 auto 20px auto;
+
+  @include on-tablet {
+    padding: $padding-tablet;
+  }
+}
+
+.title {
+  font-size: 36px;
+
+  @include on-tablet {
+    font-size: 40px;
+  }
+}
+
+.text,
+.descr {
+  font-size: 18px;
+
+  @include on-tablet {
+    font-size: 24px;
+  }
+}
+
+.descr {
+  color: $gray-color;
+}
+
+.linksList {
+  display: flex;
+  gap: 15px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  fill: $gray-color;
+
+  @include on-tablet {
+    width: 24px;
+    height: 24px;
+  }
+}

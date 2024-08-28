@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Little Home Bakery",
+    "description": "The Little Home Bakery is a user-friendly website with a unique design that showcases a variety of homemade baked goods, from cakes to artisanal confections. The entire design of the website was crafted personally, ensuring a unique and cohesive aesthetic that aligns with the bakery's brand.",
+    "skills": ["React", "SASS", "TypeScript","BEM", "Git"],
+    "demo": "https://yuliiacat.github.io/little-home-bakery/",
+    "repository": "https://github.com/YuliiaCat/little-home-bakery",
+    "image": "img/projects/little-home-bakery.webp"
+  },
+  {
+    "id": 2,
+    "name": "Phone Catalog",
+    "description": "Interactive web application designed to showcase a collection of phones, tablets, and accessories. The application aims to provide a seamless user experience with an intuitive interface and efficient functionality.",
+    "skills": ["React", "Redux", "SASS", "TypeScript","BEM", "Git"],
+    "demo": "https://yuliiacat.github.io/phone-catalog/",
+    "repository": "https://github.com/YuliiaCat/phone-catalog",
+    "image": "img/projects/phone-catalog.webp"
+  },
+  {
+    "id": 3,
+    "name": "Air landing",
+    "description": "The 'Air' project is a strategically designed website showcasing a variety of creative services available for order. It incorporates responsive design elements that dynamically respond to user actions and interactions, ensuring a seamless browsing experience.",
+    "skills": ["HTML5", "SASS", "JavaScript","BEM", "Git"],
+    "demo": "https://yuliiacat.github.io/air_landing/",
+    "repository": "https://github.com/YuliiaCat/air_landing",
+    "image": "img/projects/air.webp"
+  },
+  {
+    "id": 4,
+    "name": "Green Harvest landing",
+    "description": "Green Harvest is a website crafted to make buying premium organic vegetables online easy and enjoyable.",
+    "skills": ["HTML5", "CSS", "JavaScript", "Git"],
+    "demo": "https://yuliiacat.github.io/greenHarvest_landing/",
+    "repository": "https://github.com/YuliiaCat/greenHarvest_landing",
+    "image": "img/projects/green-harvest.webp"
+  },
+  {
+    "id": 5,
+    "name": "Game 2048",
+    "description": "This project is a recreation of the popular game 2048. It is a single-player sliding tile puzzle game, where the objective is to slide numbered tiles on a grid to combine them and create a tile with the number 2048.",
+    "skills": ["HTML5", "SASS", "JavaScript", "Git"],
+    "demo": "https://yuliiacat.github.io/game_2048/",
+    "repository": "https://github.com/YuliiaCat/game_2048",
+    "image": "img/projects/2048.webp"
+  },
+  {
+    "id": 6,
+    "name": "Creative Bakery landing",
+    "description": "The project Creative Bakery is a modern web application designed to showcase delicious pastries and bakery products.",
+    "skills": ["HTML5", "SASS", "BEM", "Git"],
+    "demo": "https://yuliiacat.github.io/creative_bakery_landing/",
+    "repository": "https://github.com/YuliiaCat/creative_bakery_landing",
+    "image": "img/projects/creative-bakery.webp"
+  },
+  {
+    "id": 7,
+    "name": "SeatJam 3D",
+    "description": "The SeatJam 3D Landing Page is designed to give users a comprehensive overview of the exciting 3D game. It features engaging visuals and detailed information about the game's mechanics, storyline, and unique features.",
+    "skills": ["HTML5", "SASS", "JavaScript", "Git"],
+    "demo": "https://yuliiacat.github.io/seat_jam_3d/",
+    "repository": "https://github.com/YuliiaCat/seat_jam_3d",
+    "image": "img/projects/seat-jam-3d.webp"
+  },
+  {
+    "id": 8,
+    "name": "The Met landing",
+    "description": "The website features a sleek design with intuitive navigation, providing users with an engaging experience to explore general information such as upcoming events, featured collections, visitor information, and museum exhibitions.",
+    "skills": ["HTML5", "SASS", "BEM", "Git"],
+    "demo": "https://yuliiacat.github.io/the-met/",
+    "repository": "https://github.com/YuliiaCat/the-met",
+    "image": "img/projects/met.webp"
+  },
+  {
+    "id": 9,
+    "name": "Portfolio",
+    "description": "The Portfolio is a website that showcases a fullstack developer's skills, projects, and professional experience, serving as an online resume for potential employers and clients.",
+    "skills": ["HTML5", "CSS", "JavaScript", "Git"],
+    "demo": "https://lexxus0.github.io/js-project-group-11/",
+    "repository": "https://github.com/YuliiaCat/js-project-group-11",
+    "image": "img/projects/portfolio.webp"
+  }
+]

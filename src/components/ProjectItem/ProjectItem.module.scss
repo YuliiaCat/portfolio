@@ -13,6 +13,14 @@
     gap: 18px;
     padding: $padding-mobile;
   }
+
+  @include on-desktop {
+    border: none;
+    box-shadow: none;
+    background: rgba(256, 256, 256, 0.03);
+
+    @include hover(box-shadow, 0 0 20px -10px);
+  }
 }
 
 .content {
@@ -74,18 +82,31 @@
   cursor: pointer;
   white-space: nowrap;
   padding: 5px 10px;
+
+  @include on-desktop {
+
+    &:hover .text {
+      color: $text-color;
+    }
+
+    &:hover .icon {
+      fill: $text-color;
+    }
+  }
 }
 
 .icon {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   fill: $gray-color;
+  transition: fill 0.3s ease;
 }
 
 .text {
   font-size: 20px;
   line-height: 1.2;
   color: $gray-color;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .linkImg {

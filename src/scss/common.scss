@@ -75,6 +75,20 @@ img {
   height: auto;
 }
 
+#cursor-circle {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 800px;
+  background: radial-gradient(rgba(58, 40, 90, 0.35), transparent 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: background 0.3s ease;
+  z-index: -2;
+}
+
 .page-wrapper {
   @include on-desktop {
     display: flex;
@@ -88,7 +102,7 @@ img {
   gap: 20px;
 
   @include on-desktop {
-    gap: 70px;
+    gap: 20px;
     padding: $padding-desktop $padding-desktop $padding-mobile 0;
   }
 }
@@ -107,7 +121,7 @@ img {
   }
 
   @include on-desktop {
-    padding: 0;
+    padding: $padding-tablet 0 0;
     min-width: 100%;
   }
 }

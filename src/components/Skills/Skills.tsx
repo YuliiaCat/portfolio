@@ -2,7 +2,7 @@ import style from './Skills.module.scss';
 
 const Skills = () => {
   return (
-    <>
+    <section id='skills'>
       <h2 className='section-title'>Skills</h2>
       <div className='section'>
         <div className={style.skills}>
@@ -49,7 +49,7 @@ const Skills = () => {
           </ul>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

@@ -103,7 +103,11 @@ img {
 
   @include on-desktop {
     gap: 20px;
-    padding: $padding-desktop $padding-desktop $padding-mobile 0;
+    padding: 0 $padding-desktop $padding-mobile 0;
+  }
+
+  @include on-desktop-xl {
+    padding: 0 $padding-desktop-xl $padding-mobile 0;
   }
 }
 
@@ -121,7 +125,7 @@ img {
   }
 
   @include on-desktop {
-    padding: $padding-tablet 0 0;
+    padding: $padding-desktop 0 0;
     min-width: 100%;
   }
 }
@@ -134,10 +138,13 @@ img {
   backdrop-filter: blur(10px);
   text-transform: uppercase;
   font-size: 16px;
+  max-width: $max-mobile-width;
+  margin: 0 auto;
 
   @include on-tablet {
     font-size: 18px;
-    padding: $padding-mobile $padding-tablet 0 0;
+    padding: $padding-mobile $padding-tablet;
+    max-width: $max-tablet-width;
   }
 
   @include on-desktop {

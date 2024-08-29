@@ -11,7 +11,7 @@
     max-width: $max-tablet-width;
   }
 
-  @include on-tablet {
+  @include on-desktop {
     position: sticky;
     top: 0;
     justify-content: space-between;
@@ -19,6 +19,10 @@
     height: 100vh;
     overflow: hidden;
     min-width: 40%;
+  }
+
+  @include on-desktop-xl {
+    padding: $padding-desktop 0 $padding-desktop $padding-desktop-xl;
   }
 }
 

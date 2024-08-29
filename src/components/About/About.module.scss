@@ -10,6 +10,11 @@
   @include on-desktop {
     font-size: 20px;
     line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
+
+  @include on-desktop-xl {
+    font-size: 22px;
   }
 }
 

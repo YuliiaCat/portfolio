@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react';
 
 
 const sections = [
-  { id: 'about', threshold: 0.6 },
+  { id: 'about', threshold: 1 },
   { id: 'skills', threshold: 1 },
   { id: 'projects', threshold: 0.2 },
 ];

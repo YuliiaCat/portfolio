@@ -10,6 +10,12 @@
   }
 }
 
+@mixin on-desktop-xl {
+  @media (min-width: $min-desktop-xl-width) {
+    @content;
+  }
+}
+
 @mixin hover($_property, $_toValue, $_property2: null, $_toValue2: null) {
   transition: #{$_property} 0.4s, #{$_property2} 0.4s;
   &:hover {

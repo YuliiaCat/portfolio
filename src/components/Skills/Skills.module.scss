@@ -5,7 +5,11 @@
   gap: 18px;
 
   @include on-desktop {
-    gap: 22px;
+    gap: 24px;
+  }
+
+  @include on-desktop-xl {
+    gap: 30px;
   }
 }
 
@@ -15,7 +19,11 @@
   gap: 18px;
 
   @include on-desktop {
-    gap: 22px;
+    gap: 24px;
+  }
+
+  @include on-desktop-xl {
+    gap: 30px;
   }
 }
 
@@ -31,6 +39,10 @@
   @include on-desktop {
     padding: 12px;
     gap: 10px;
+  }
+
+  @include on-desktop-xl {
+    padding: 20px;
   }
 }
 
@@ -48,5 +60,11 @@
   @include on-desktop {
     font-size: 18px;
     padding: 7px 10px;
+  }
+
+  @include on-desktop-xl {
+    width: 100px;
+    font-size: 20px;
+    padding: 10px 20px;
   }
 }

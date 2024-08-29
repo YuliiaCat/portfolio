@@ -3,12 +3,20 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 18px;
+
+  @include on-desktop {
+    gap: 22px;
+  }
 }
 
 .list {
   display: flex;
   flex-direction: column;
   gap: 18px;
+
+  @include on-desktop {
+    gap: 22px;
+  }
 }
 
 .sublist {
@@ -19,6 +27,11 @@
   padding: 7px 5px;
   border-radius: 20px;
   box-shadow: 0px 10px 20px -18px;
+
+  @include on-desktop {
+    padding: 12px;
+    gap: 10px;
+  }
 }
 
 .subitem {
@@ -31,4 +44,9 @@
   padding: 7px;
   white-space: nowrap;
   border-radius: 20px;
+
+  @include on-desktop {
+    font-size: 18px;
+    padding: 7px 10px;
+  }
 }

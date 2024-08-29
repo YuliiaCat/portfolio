@@ -7,8 +7,25 @@
   margin: 0 auto 20px auto;
 
   @include on-tablet {
-    padding: $padding-tablet;
+    padding: $padding-mobile $padding-tablet;
+    max-width: $max-tablet-width;
   }
+
+  @include on-tablet {
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    padding: $padding-desktop 0 $padding-desktop $padding-desktop;
+    height: 100vh;
+    overflow: hidden;
+    min-width: 40%;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .title {
@@ -17,6 +34,11 @@
   @include on-tablet {
     font-size: 40px;
   }
+
+  @include on-desktop {
+    font-size: 48px;
+    line-height: 1.5;
+  }
 }
 
 .text,
@@ -24,17 +46,22 @@
   font-size: 18px;
 
   @include on-tablet {
-    font-size: 24px;
+    font-size: 22px;
   }
 }
 
 .descr {
   color: $gray-color;
+  font-size: 18px;
 }
 
 .linksList {
   display: flex;
   gap: 15px;
+
+  @include on-desktop {
+    gap: 18px;
+  }
 }
 
 .link {

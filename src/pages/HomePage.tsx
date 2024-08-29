@@ -6,7 +6,7 @@ import Skills from "../components/Skills/Skills"
 import { getProjects } from "../services/projects"
 import iziToast from "izitoast"
 import { Project } from "../types/project"
-
+import Passage from "../components/Passage/Passage"
 
 const HomePage = () => {
   const [data, setData] = useState<Project[]>([]);
@@ -30,12 +30,15 @@ const HomePage = () => {
   }, []);
 
   return (
-    <>
+    <div className="page-wrapper">
       <Sidebar />
-      <About />
-      <Skills />
-      <ProjectsList data={data} />
-    </>
+      <div className="content-box">
+        <About />
+        <Skills />
+        <ProjectsList data={data} />
+        <Passage />
+      </div>
+    </div>
   );
 }
 

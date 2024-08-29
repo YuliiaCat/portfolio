@@ -8,16 +8,18 @@ export interface Props {
 
 const ProjectsList: React.FC<Props> = ({ data }) => {
   return (
-    <div className="section">
+    <>
       <h2 className="section-title">Projects</h2>
-      <ul className={style.list}>
-        {data.map(project => (
-          <li key={project.id}>
-            <ProjectItem project={project} />
-          </li>
-        ))}
-      </ul>
-    </div>
+      <div className="section">
+        <ul className={style.list}>
+          {data.map(project => (
+            <li key={project.id}>
+              <ProjectItem project={project} />
+            </li>
+          ))}
+        </ul>
+      </div>
+    </>
   );
 }
 
